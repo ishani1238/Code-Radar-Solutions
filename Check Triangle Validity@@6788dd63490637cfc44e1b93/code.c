@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
+    int a, b, c;
     scanf("%d %d %d", &a,&b,&c);
-    if(a + b >= c && b + c >= a && c + a >= a){
-        print("Valid\n");
+    if(a + b > c && b + c > a && a + c >= b){
+        printf("Valid\n");
     }else{
         printf("Invalid\n");
     }
