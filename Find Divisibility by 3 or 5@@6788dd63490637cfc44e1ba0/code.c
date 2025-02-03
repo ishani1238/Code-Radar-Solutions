@@ -9,7 +9,7 @@ int main(){
     }else if( a % 5 == 0){
         printf("Divisible by 5\n");
     }else{
-        printf("neither\n");
+        printf("Not Divisible\n");
     }
     return 0;
 }
