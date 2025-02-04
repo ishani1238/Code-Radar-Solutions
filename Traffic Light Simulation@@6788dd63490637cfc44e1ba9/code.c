@@ -6,7 +6,7 @@ int main(){
         printf("Stop\n";)
     }else if(a == 'G'){
         printf("Go\n");
-    }else if(a == "Y"){
+    }else if(a == 'Y'){
         printf("Slow Down\n");
     }else{
         printf("Invalid input\n");
