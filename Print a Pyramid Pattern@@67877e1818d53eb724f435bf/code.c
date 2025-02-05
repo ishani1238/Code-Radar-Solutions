@@ -7,7 +7,7 @@ int main(){
             if(i ==N/2+1 || j == i+1){
             printf("* ");
         }else{
-            printf("\n");
+            printf(" ");
         }
         }
 
