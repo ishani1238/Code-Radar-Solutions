@@ -5,7 +5,7 @@ int main(){
     for(int i =1;i<=N;i++){
         for(int j=1;j<=N;j++){
             if(i ==N/2+1 || j==N/2+1){
-                printf("*";)
+                printf("*");
             }else{
                 printf(" ");
             }
