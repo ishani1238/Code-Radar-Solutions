@@ -4,16 +4,17 @@ int main(){
     scanf("%c",&ch);
     switch(ch){
         case 'R':
-        printf("Stop\n");
-        break;
+           printf("Stop\n");
+           break;
         case 'G':
-        printf("Go\n");
-        break;
+           printf("Go\n");
+           break;
         case 'Y':
-        printf("Slow Down\n");
-        break;
+           printf("Slow Down\n");
+           break;
         default:
-        printf("Invalid input\n";)
+           printf("Invalid input\n");
+           break;
     }
     return 0;
 }
