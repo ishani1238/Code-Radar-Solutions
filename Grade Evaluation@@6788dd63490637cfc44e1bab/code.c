@@ -10,7 +10,7 @@ int main(){
         printf("Average\n");
     }else if(ch == 'D'){
         ptintf("Below Average\n");
-    }else if(ch == 'E'){
+    }else if(ch == 'F'){
         printf("Fail\n");
     }else{
         printf("Invalid grade\n");
