@@ -9,7 +9,7 @@ int main(){
         case 'G':
         printf("Go\n");
         break;
-        case 'Y'
+        case 'Y':
         printf("Slow Down\n");
         break;
         default:
