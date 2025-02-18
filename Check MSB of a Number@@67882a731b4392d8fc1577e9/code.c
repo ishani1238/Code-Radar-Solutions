@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d\n",&a);
-    if(a >> 31){
+    if(a | 1){
         printf("Set\n");
     }else{
         printf("Not Set\n");
