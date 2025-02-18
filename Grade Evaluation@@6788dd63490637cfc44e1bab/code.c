@@ -1,16 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    char a;
-    scanf("%c", &a);
-    if(a == 'A'){
+    char ch;
+    scanf("%c",ch);
+    if(ch == 'A'){
         printf("Excellent\n");
-    }else if( a == 'B'){
+    }else if(ch == 'B'){
         printf("Good\n");
-    }else if(a == 'C'){
+    }else if(ch == 'C'){
         printf("Average\n");
-    }else if(a == 'D'){
-        printf("Below Average\n");
-    }else if( a == 'F'){
+    }else if(ch == 'D'){
+        ptintf("Below Average\n");
+    }else if(ch == 'E'){
         printf("Fail\n");
     }else{
         printf("Invalid grade\n");
