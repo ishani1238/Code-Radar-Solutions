@@ -16,7 +16,7 @@ int main(){
             printf("Below Average\n") ;
             break;
          case 'F':
-            printf("fail\n"); 
+            printf("Fail\n"); 
             break;
         deafult:
             printf("Invalid grade\n");
