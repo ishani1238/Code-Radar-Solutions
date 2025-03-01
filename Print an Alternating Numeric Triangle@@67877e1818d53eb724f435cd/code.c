@@ -6,10 +6,10 @@ int main(){
     int b=0;
     for(int i=1;i<=N;i++){
         for(int j =1;j<=i;j++){
-            if(i%2==0){
-                printf("%d",b);
+            if(i==j){
+                printf("%d",ba);
             }else{
-                printf("%d",a);
+                printf("%d",b);
             }
 
         }
