@@ -8,11 +8,12 @@ int main(){
             printf(" ");
         }
         for(int j =1;j<=i;j++){
-            printf("%d",&a);
+            printf("%d",a);
+            a++;
            
 
         }
-        a++;
+
         printf("\n");
     }
     return 0;
