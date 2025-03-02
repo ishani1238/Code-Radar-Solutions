@@ -6,6 +6,7 @@ int main(){
         int a =65;
         for(int j=1;j<=(N+1)-i;j++){
             printf("%d",a);
+            a++;
         }
         printf("\n");
     }
