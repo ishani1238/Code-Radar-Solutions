@@ -7,10 +7,10 @@ int isPrime( int num){
         if(num % i==0){
             return 0;
         }
-
-        }
         return 1;
-    }
+        }
+       
+    
 int main(){
     int t;
     scanf("%d",&t);
