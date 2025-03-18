@@ -9,6 +9,7 @@ int isPrime( int num){
         }
         return 1;
     }
+}
         
     
 int main(){
