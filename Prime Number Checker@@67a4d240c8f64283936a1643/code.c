@@ -1,10 +1,10 @@
 #include<stdio.h>
-int isPrime(t){
-    if(t < 2){
+int isPrime( int num){
+    if(num < 2){
         return 0;
     }
-    for(int i=2;i*i<=t;i++){
-        if(t % i==0){
+    for(int i=2;i*i<=num;i++){
+        if(num % i==0){
             return 0;
         }else{
             return 1;
