@@ -4,12 +4,9 @@ int main(){
     scanf("%d",&n);
     int b = 0;
     for(int i=0;i<=n;i++){
-        if(n&1 == 1){
+        if(n&(1<<b)){
             printf("%d",b);
-        }else{
-            printf("%d",b);
-            b++;
-        }
+        b++;
     }
     return 0;
 }
