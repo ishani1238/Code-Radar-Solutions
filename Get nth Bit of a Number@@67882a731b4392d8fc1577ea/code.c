@@ -2,10 +2,10 @@
 int main(){
     int n, b, bit_value;
     scanf("%d %d",&n,&b);
-    if (n & 1){
-        printf("%d\n",bit_value);
+    if (n & 1 == 1){
+        printf("1");
     }else{
-        printf("%d\n",bit_value);
+        printf("0");
     }
     return 0;
 }
