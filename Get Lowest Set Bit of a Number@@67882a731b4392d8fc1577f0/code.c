@@ -8,8 +8,9 @@ int main(){
             printf("%d",b);
     }else{
         printf("%d",b);
-        b++;
+
     }
+    b++;
     }
     return 0;
 }
