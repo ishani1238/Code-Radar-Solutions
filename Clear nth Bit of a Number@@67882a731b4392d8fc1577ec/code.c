@@ -1,4 +1,4 @@
-#include<stdio.h>{
+#include<stdio.h>
     int main(){
         int n,b;
         scanf("%d %d",&n,&b);
@@ -7,6 +7,6 @@
         }else{
             printf("%d",n);
         }
+        return 0;
     }
-    return 0;
-}
+   
