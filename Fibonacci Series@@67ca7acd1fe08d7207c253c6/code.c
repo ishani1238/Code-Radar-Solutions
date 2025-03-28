@@ -1,11 +1,20 @@
-#include<stdio.h>
-int fibonacciSeries(int n){
-    if(n<=0){
+#include <stdio.h>
+
+void printFibonacciSeries(int n) {
+    if (n <= 0) {
         printf("Invalid input\n");
-        return -1;
+        return;
     }
-    if(n<=1) return 0;
-    if(n<=2) return 1;
-    return fibonacciSeries(n-1) + fibonacciSeries(n-2);
+
+    int a = 0, b = 1, temp;
+    
+    for (int i = 1; i <= n; i++) {
+        printf("%d ", a);
+        temp = a + b;
+        a = b;
+        b = temp;
+    }
 }
+
+
 
