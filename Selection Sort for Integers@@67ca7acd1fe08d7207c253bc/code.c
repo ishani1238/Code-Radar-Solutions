@@ -9,5 +9,5 @@ void selectionSort(int arr[],int n){
             }
         }
     }
-    return 0;
+   
 }
