@@ -8,10 +8,11 @@ int isPrime(int n){
  }
     return 1;
 }
-void printPrimesInRange(int a,int b){
+int printPrimesInRange(int a,int b){
     for(int i=a;i<=b;i++){
         if(isPrime(i)){
             printf("%d ",i);
         }
     }
+    return 0;
 }
