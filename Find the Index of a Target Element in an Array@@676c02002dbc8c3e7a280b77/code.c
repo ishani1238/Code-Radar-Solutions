@@ -16,7 +16,7 @@ int main(){
             break;
         }
     }if(!found){
-        print("-1 ");
+        printf("-1 ");
     }
     return 0;
 }
