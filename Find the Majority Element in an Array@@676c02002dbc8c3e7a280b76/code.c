@@ -13,10 +13,9 @@ int main(){
             arr[max]=arr[i];
             arr[i]=temp;
             printf("%d ",arr[i]);
+        }else{
+            printf("-1 ");
         }
-    }else{
-        printf("-1 ");
     }
-    
     return 0;
 }
