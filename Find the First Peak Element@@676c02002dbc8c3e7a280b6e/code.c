@@ -18,8 +18,10 @@ int main(){
     scanf("%d",&arr[i]);
     if(peak(arr,n)){
         printf("%d",arr[i]);
-    } return 0;
+    } 
+    
     }
+    return 0;
 }
 
 }
