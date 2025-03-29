@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stlib.h>
+#include<stdlib.h>
 int sumofdigit(int n){
     n =abs(n);
     int sum =0;
