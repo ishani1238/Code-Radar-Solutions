@@ -37,4 +37,5 @@ int maxelement=findmax(arr,n);
 int minelement = findmin(arr,n);
 printf("%d ",arr[maxelement]);
 printf("%d",arr[minelement]);
+return 0;
 }
