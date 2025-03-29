@@ -32,8 +32,8 @@ int main() {
     int maxIndex = findmax(arr, n);
     int minIndex = findmin(arr, n);
 
-    printf("Maximum element: %d\n", arr[maxIndex]);
-    printf("Minimum element: %d\n", arr[minIndex]);
+    printf("%d ", arr[maxIndex]);
+    printf("%d ", arr[minIndex]);
 
     return 0;
 }
