@@ -11,7 +11,7 @@ void findmax(int arr[],int n){
         }
 
     }
-    return 0;
+
 }
 void findmin(int arr[];int n){
     for(int i=0;j<n-1;i++){
@@ -24,7 +24,7 @@ void findmin(int arr[];int n){
             }
         }
     }
-    return 0;
+  
 }
 int main(){
     int n;
