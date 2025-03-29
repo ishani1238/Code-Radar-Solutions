@@ -6,12 +6,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int max=0;
+    int max=arr[0];
     for(int i=0;i<n-1;i++){
         if(arr[max]<arr[i]){
-            int temp=arr[max];
-            arr[max]=arr[i];
-            arr[i]=temp;
+            max=arr[i];
             printf("%d ",arr[i]);
         }else{
             printf("-1 ");
