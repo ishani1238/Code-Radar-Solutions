@@ -17,13 +17,15 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-for(int i=0;i<n-1;i++){
-    if(findFirstPeak(arr,n)){
+    int peak=findFirstPeak(arr,n);
+    if(peak != -1){
         printf("%d\n",arr[i]);
     }else{
-        printf("-1");
+        printf("-1\n");
     }
-}
+    return 0;
+    }
+
     
 
     return 0;
