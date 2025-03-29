@@ -19,7 +19,7 @@ int main() {
     }
 
      findFirstPeak(arr, n);
-    printf("%d\n",finfFirstPeak(arr,n));
+    printf("%d\n",findFirstPeak(arr,n));
 
     return 0;
 }
