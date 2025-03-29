@@ -19,7 +19,7 @@ int main() {
     }
 for(int i=0;i<n;i++){
     if(findFirstPeak(arr,n)){
-        printf("%d\n",arr[i])
+        printf("%d\n",arr[i]);
     }else{
         printf("-1");
     }
