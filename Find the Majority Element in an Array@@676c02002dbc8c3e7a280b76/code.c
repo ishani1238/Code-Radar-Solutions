@@ -11,9 +11,8 @@ int main(){
         if(arr[max]<arr[i]){
             max=arr[i];
             printf("%d ",arr[i]);
-        }else{
-            printf("-1 ");
         }
+        
     }
     return 0;
 }
