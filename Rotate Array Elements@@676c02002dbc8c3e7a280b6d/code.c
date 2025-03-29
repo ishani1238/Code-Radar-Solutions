@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, k;
     scanf("%d", &n); // Array ka size lo
