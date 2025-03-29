@@ -21,7 +21,7 @@ int main() {
 
     // **Step 2: Phir baaki elements print karo**
     for (int i = 0; i < n - k; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n ", arr[i]);
     }
 
     return 0;
