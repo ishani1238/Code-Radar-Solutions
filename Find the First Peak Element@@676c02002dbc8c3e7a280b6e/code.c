@@ -18,8 +18,8 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-     findFirstPeak(arr, n);
-    printf("%d\n",findFirstPeak(arr,n));
+    int peak= findFirstPeak(arr, n);
+    printf("%d\n",arr[peak]);
 
     return 0;
 }
