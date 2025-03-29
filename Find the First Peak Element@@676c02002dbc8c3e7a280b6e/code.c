@@ -1,26 +1,27 @@
-#include<stdio.h>
-int peak(int arr[],int n){
-    for(int i=0;i<n-1;i++){
-        int max=i;
-        for(int j =n+1;j,n-1-i;j++){
-            if(arr[j]>arr[j-1]||arr[i]>arr[j+1]){
-                return 1;
-            }
+#include <stdio.h>
+
+int findFirstPeak(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        if ((i == 0 || arr[i] >= arr[i - 1]) && (i == n - 1 || arr[i] >= arr[i + 1])) {
+            return i;  // Return index of first peak
         }
     }
-    return -1;
+    return -1;  // No peak found (should not happen)
 }
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i=0;i<n;i++){
-    scanf("%d",&arr[i]);
-    if(peak(arr,n)){
-        printf("%d",arr[i]);
-    } 
+    scanf("%d", &n);
     
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
+
+     findFirstPeak(arr, n);
+    printf("%d\n",arr[peakIndex]);
+
     return 0;
 }
+
 
