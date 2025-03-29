@@ -1,41 +1,39 @@
-#include<stdio.h>
-void findmax(int arr[],int n){
-    for(int i=0;i<n;i++){
-        int max=i;
-        for(int j=i+1;j<n-1-i;j++){
-            if(arr[j]<arr[j+1]){
-                int temp=arr[max];
-                arr[max]=arr[j+1];
-                arr[j+1]=temp;
-            }
-        }
+#include <stdio.h>
 
-    }
-
-}
-void findmin(int arr[];int n){
-    for(int i=0;j<n-1;i++){
-        int min=i;
-        for(int j=i+1;j<n-1-i;j++){
-            if(arr[min]>arr[j+1]){
-                int temp =arr[min];
-                arr[min]=arr[j+1];
-                arr[j+1]=temp;
-            }
+int findmax(int arr[], int n) {
+    int max = 0;
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > arr[max]) {
+            max = i;
         }
     }
-  
+    return max;  // Return the index of the maximum element
 }
-int main(){
+
+int findmin(int arr[], int n) {
+    int min = 0;
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < arr[min]) {
+            min = i;
+        }
+    }
+    return min;  // Return the index of the minimum element
+}
+
+int main() {
     int n;
-    scanf("%d",&n);
-int arr[n];
-for(int i=0;i<n;i++){
-scanf("%d",&arr[n]);
-}
-int maxelement=findmax(arr,n);
-int minelement = findmin(arr,n);
-printf("%d ",arr[maxelement]);
-printf("%d",arr[minelement]);
-return 0;
+    scanf("%d", &n);
+    
+    int arr[n];
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);  // Corrected input statement
+    }
+
+    int maxIndex = findmax(arr, n);
+    int minIndex = findmin(arr, n);
+
+    printf("Maximum element: %d\n", arr[maxIndex]);
+    printf("Minimum element: %d\n", arr[minIndex]);
+
+    return 0;
 }
