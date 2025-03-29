@@ -14,7 +14,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    scanf("%d",arr[i]);
+    scanf("%d",&arr[i]);
     if(peak(arr,n)){
         printf("%d",arr[j]);
     } return 0;
