@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int pallindrome=0;
+    int pallindrome=1;
     int n;
     scanf("%d",&n);
     int arr[n];
